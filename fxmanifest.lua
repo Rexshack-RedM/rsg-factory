@@ -4,7 +4,7 @@ game 'rdr3'
 lua54 'yes'
 
 description 'rsg-factory'
-version '1.1.0'
+version '3.0.0'
 
 shared_scripts {
     '@rsg-core/shared/locale.lua',

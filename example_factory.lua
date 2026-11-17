@@ -1,6 +1,10 @@
 --[[
     rsg-factory  |  EXAMPLE FACTORY: Cigarette Factory
 
+    NOTE (v3.0.0): every line now also burns fuel and water per batch (set in the editor, default 1 each), and the
+    factory must be bought and stocked by an owner before it can produce. The SQL insert below leaves it unowned
+    at the default price; lines without fuel/water fields use the defaults.
+
     This file is a REFERENCE ONLY. It is not listed in fxmanifest.lua and is never loaded
     by the resource. Factories are built in-game with the editor (or by SQL, see option B).
 
